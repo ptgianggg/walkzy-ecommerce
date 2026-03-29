@@ -1,0 +1,20 @@
+# Root .gitignore
+node_modules/
+.env
+dist/
+build/
+.vscode/
+
+# Ignore project-specific modules
+Frontend/node_modules/
+Backend/node_modules/
+MobileApp/node_modules/
+
+# Ignore built artifacts
+Frontend/build/
+Backend/build/
+MobileApp/dist/
+
+# Generic
+*.log
+.DS_Store

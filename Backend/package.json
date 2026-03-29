@@ -1,0 +1,39 @@
+{
+  "name": "doan_chuyennganh_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.31.0",
+    "@google/generative-ai": "^0.15.0",
+    "axios": "^1.13.2",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.19",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.3",
+    "express-session": "^1.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "mongodb": "4.1",
+    "mongoose": "^8.19.3",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.11",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "react-html-table-to-excel": "^2.0.0",
+    "socket.io": "^4.8.1",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^3.6.2"
+  }
+}

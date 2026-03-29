@@ -1,0 +1,29 @@
+.ant-notification-notice {
+    transform: translateX(20px);
+    opacity: 0;
+    animation: slideInRight 0.32s ease forwards;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Optional: smoother exit */
+.ant-notification-notice-leave {
+    animation: slideOutRight 0.22s ease forwards;
+}
+
+@keyframes slideOutRight {
+    to {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+}
