@@ -76,3 +76,5 @@ Tất cả các giao tiếp giữa client và server đều được bảo mật
 1. Di chuyển vào thư mục mobile: `cd MobileApp`
 2. Cài đặt thư viện: `npm install`
 3. Chạy ứng dụng: `npx expo start`
+##  Ghi chú
+Project phục vụ mục đích học tập & demo CV
